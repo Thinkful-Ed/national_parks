@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+.header-statement {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.sorter {
+  width: 90%;
+  margin: 0 auto;
+  padding: 6px;
+}
+
 body {
   margin: 0;
   font-size: 16px;
@@ -111,6 +122,7 @@ main {
   color: rgba(255, 255, 255, 0.5);
 }
 
+<<<<<<< Updated upstream
 .input-form {
   width: 90%;
   max-width: 350px;
@@ -141,6 +153,17 @@ main {
   color: #bb0000;
   display: none;
 }
+=======
+.high-rating {
+  color: #3ba17c;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+>>>>>>> Stashed changes
 
 @media screen and (min-width: 600px) {
   main {
